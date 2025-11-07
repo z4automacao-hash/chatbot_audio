@@ -1,4 +1,3 @@
 flask
-requests
-whisper
 torch
+openai-whisper
