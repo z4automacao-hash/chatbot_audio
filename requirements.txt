@@ -1,0 +1,4 @@
+flask
+requests
+whisper
+torch
