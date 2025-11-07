@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 
 # Carregar o modelo Whisper local
-model = whisper.load_model("base")  # pode usar "tiny", "base", "small" ou "medium"
+model = whisper.load_model("tiny")  # pode usar "tiny", "base", "small" ou "medium"
 
 @app.route("/audio", methods=["POST"])
 def process_audio():
